@@ -22,7 +22,10 @@ export default {
       },
       gridTemplateColumns: {
         'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
-      }
+      },
+      screens: {
+        'mobile-range': { 'max': '480px', 'min': '360px' }, // Custom breakpoint
+      },
     },
   },
   darkMode: 'selector',

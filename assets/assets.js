@@ -35,6 +35,17 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import frontEnd_Development from './frontend.png';
+import backEnd_Development from './backend.png';
+import UI_Design from './ui-design.png';
+import Mobile_Development from './Mobile.png';
+import phone_Contact from './phone-contact.png';
+import contact_icon from './contact_icon.png';
+import contact_Dark_mode from './contact_Dark_Mode.png';
+import githubIcon from './github-icon.png';
+import linkedinIcon from './linkedin-icon.png';
+import gmailIcon from './gmail-icon.png';
+import githubDarkIcon from './github-dark-icon.png';
 
 export const assets = {
     user_image,
@@ -73,7 +84,18 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    frontEnd_Development,
+    backEnd_Development,
+    UI_Design,
+    Mobile_Development,
+    phone_Contact,
+    contact_icon,
+    contact_Dark_mode,
+    githubIcon,
+    linkedinIcon,
+    gmailIcon,
+    githubDarkIcon
 };
 
 export const workData = [
@@ -87,23 +109,23 @@ export const workData = [
         description: 'Mobile App',
         bgImage: '/work-2.png',
     },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+    // {
+    //     title: 'Photography site',
+    //     description: 'Web Design',
+    //     bgImage: '/work-3.png',
+    // },
+    // {
+    //     title: 'UI/UX designing',
+    //     description: 'UI/UX Design',
+    //     bgImage: '/work-4.png',
+    // },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.UI_Design, title: 'FrontEnd Development', description: 'Web development is the process of building, programming...', link: 'https://roadmap.sh/frontend' },
+    { icon: assets.backEnd_Development, title: 'BackEnd Development', description: 'Mobile app development involves creating software for mobile devices...', link: 'https://roadmap.sh/backend' },
+    // { icon: assets.UI_Design, title: 'UI Design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+    { icon: assets.Mobile_Development, title: 'Mobile App Development', description: 'Creative design solutions to enhance visual communication...', link: 'https://roadmap.sh/react-native' },
 ]
 
 export const infoList = [
