@@ -26,6 +26,9 @@ export default {
       screens: {
         'mobile-range': { 'max': '480px', 'min': '360px' }, // Custom breakpoint
       },
+      boxShadow: {
+        'custom': '2px -2px 6px black', // Add custom drop-shadow here
+      }
     },
   },
   darkMode: 'selector',

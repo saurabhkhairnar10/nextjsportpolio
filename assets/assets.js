@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './user-image.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -15,7 +15,7 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_img from './profile-img.jpg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -102,12 +102,17 @@ export const workData = [
     {
         title: 'Frontend project',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: './portpolioWebsite.png',
+        bgImageDark:'./work-5.png',
+        link:'https://codepen.io/johnykei/pen/NWmbxzY',
+        videoUrl:'/NextJsPortpolio.mp4'
     },
     {
         title: 'Geo based app',
         description: 'Mobile App',
         bgImage: '/work-2.png',
+        bgImageDark: '/work-2.png',
+        link:'https://codepen.io/johnykei/pen/NWmbxzY',
     },
     // {
     //     title: 'Photography site',
@@ -122,10 +127,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.UI_Design, title: 'FrontEnd Development', description: 'Web development is the process of building, programming...', link: 'https://roadmap.sh/frontend' },
-    { icon: assets.backEnd_Development, title: 'BackEnd Development', description: 'Mobile app development involves creating software for mobile devices...', link: 'https://roadmap.sh/backend' },
+    { icon: assets.UI_Design, title: 'FrontEnd Development', description: 'It involves creating the visual and interactive aspects of a website.', link: 'https://roadmap.sh/frontend' },
+    { icon: assets.backEnd_Development, title: 'BackEnd Development', description: 'It focuses on building the DataBase Connection and Api Integration.', link: 'https://roadmap.sh/backend' },
     // { icon: assets.UI_Design, title: 'UI Design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.Mobile_Development, title: 'Mobile App Development', description: 'Creative design solutions to enhance visual communication...', link: 'https://roadmap.sh/react-native' },
+    { icon: assets.Mobile_Development, title: 'Mobile App Development', description: 'It is process of designing, coding, and deploying software applications For Mobile Applications', link: 'https://roadmap.sh/react-native' },
 ]
 
 export const infoList = [
