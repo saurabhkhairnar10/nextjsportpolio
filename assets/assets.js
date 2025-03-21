@@ -101,35 +101,17 @@ export const assets = {
 export const workData = [
     {
         title: 'Frontend project',
-        description: 'Web Design',
+        description: 'This portfolio showcases my work as a Front-End Developer, built using Next.js for seamless server-side rendering and Tailwind CSS for fast, responsive design.',
         bgImage: './portpolioWebsite.png',
         bgImageDark:'./work-5.png',
         link:'https://codepen.io/johnykei/pen/NWmbxzY',
         videoUrl:'/NextJsPortpolio.mp4'
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-        bgImageDark: '/work-2.png',
-        link:'https://codepen.io/johnykei/pen/NWmbxzY',
-    },
-    // {
-    //     title: 'Photography site',
-    //     description: 'Web Design',
-    //     bgImage: '/work-3.png',
-    // },
-    // {
-    //     title: 'UI/UX designing',
-    //     description: 'UI/UX Design',
-    //     bgImage: '/work-4.png',
-    // },
+    }
 ]
 
 export const serviceData = [
     { icon: assets.UI_Design, title: 'FrontEnd Development', description: 'It involves creating the visual and interactive aspects of a website.', link: 'https://roadmap.sh/frontend' },
     { icon: assets.backEnd_Development, title: 'BackEnd Development', description: 'It focuses on building the DataBase Connection and Api Integration.', link: 'https://roadmap.sh/backend' },
-    // { icon: assets.UI_Design, title: 'UI Design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.Mobile_Development, title: 'Mobile App Development', description: 'It is process of designing, coding, and deploying software applications For Mobile Applications', link: 'https://roadmap.sh/react-native' },
 ]
 

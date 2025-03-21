@@ -32,14 +32,14 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}`}>
         <a href="#top">
-            <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt='' className='w-28 alt="" cursor-pointer mr-14'/>
-            {/* <div
-    className={`w-28 h-28 flex items-center justify-center bg-gray-200 dark:bg-gray-700 rounded-full cursor-pointer mr-14 text-xl font-semibold ${
+            {/* <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt='' className='w-28 alt="" cursor-pointer mr-14'/> */}
+            <div
+    className={`w-14 h-14 flex items-center justify-center bg-gray-200 dark:bg-gray-700 rounded-full cursor-pointer mr-14 text-3xl font-extrabold ${
       isDarkMode ? "text-white" : "text-black"
     }`}
   >
-    Saurabh
-  </div> */}
+    S
+  </div>
   
         </a>
 
