@@ -105,6 +105,7 @@ export const workData = [
         bgImage: './portpolioWebsite.png',
         bgImageDark:'./work-5.png',
         link:'https://github.com/saurabhkhairnar10/nextjsportpolio',
+        WebsiteLink:'https://nextjsportpolio.netlify.app',
         videoUrl:'/NextJsPortpolio.mp4'
     }
 ]
