@@ -45,17 +45,17 @@ const Footer = ({isDarkMode}) => {
          <Image src={isDarkMode ? assets.contact_Dark_mode : assets.contact_icon} alt='' className='w-8 justify-self-end'/>
          </a>
             </li>
-             <li> <a target='_blank' href="https://instagram.com/greatstackdev"><Image
+             <li> <a target='_blank' href="https://github.com/saurabhkhairnar10"><Image
               src={isDarkMode?assets.githubDarkIcon: assets.githubIcon} // Replace with your email icon path
               alt="GitHub Icon"
               className="w-8 h-8 bg-gray-50"
             /></a></li>
-             <li> <a target='_blank' href="https://instagram.com/greatstackdev"><Image
+             <li> <a target='_blank' href="https://www.linkedin.com/in/saurabh-khairnar-615736b3/"><Image
               src={assets.linkedinIcon} // Replace with your email icon path
               alt="Linkedin Icon"
               className="w-8 h-8"
             /></a></li>
-             <li> <a target='_blank' href="https://instagram.com/greatstackdev"><Image
+             <li> <a target='_blank' href="mailto:saurabh.khairnar10@gmail.com"><Image
               src={assets.gmailIcon} // Replace with your email icon path
               alt="Email Icon"
               className="w-8 h-8"

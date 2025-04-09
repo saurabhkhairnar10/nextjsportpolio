@@ -104,7 +104,7 @@ export const workData = [
         description: 'This portfolio showcases my work as a Front-End Developer, built using Next.js for seamless server-side rendering and Tailwind CSS for fast, responsive design.',
         bgImage: './portpolioWebsite.png',
         bgImageDark:'./work-5.png',
-        link:'https://codepen.io/johnykei/pen/NWmbxzY',
+        link:'https://github.com/saurabhkhairnar10/nextjsportpolio',
         videoUrl:'/NextJsPortpolio.mp4'
     }
 ]
@@ -116,9 +116,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Skills', description: 'HTML, CSS, JavaScript React Js, Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Working on MERN Stack Projects' }
 ];
 
 export const toolsData = [
